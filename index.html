@@ -1,0 +1,29 @@
+---
+title: ANSS Comprehensive Catalog Documentation
+layout: default
+---
+
+
+<div class="row">
+  <div class="column three-of-five">
+    <a href="catalogs.html">Catalogs</a>
+    <a href="contributors.html">Contributors</a>
+  </div>
+  <div class="column two-of-five">
+    <h2>
+      Recent News
+      <small class="subscribe"><a href="{{ "/feed.xml" | prepend: site.baseurl }}">subscribe via RSS</a></small>
+    </h2>
+
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <li>
+          <h3>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h3>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+---
+title: Catalogs
+layout: default
+---
+
+<p>
+Catalogs are a collection of events, often from a single contributor.
+</p>
+
+<dl>
+{% for catalog in site.catalogs %}
+  <dt id="{{ catalog.id }}">{{ catalog.id }}</dt>
+  <dd><a href="catalogs/{{ catalog.id }}.html">{{ catalog.name }}</a></dd>
+{% endfor %}
+</ul>

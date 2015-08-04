@@ -1,0 +1,20 @@
+# Site settings
+title: ANSS Comprehensive Catalog
+email: ghscwebticket@usgs.gov
+description: > # this means to ignore newlines until "baseurl:"
+  Documentation for the Advanced National Seismic System (ANSS) Comprehensive
+  Catalog.
+baseurl: "/anss-comcat" # the subpath of your site, e.g. /blog/
+# url: "https://usgs.github.io" # the base hostname & protocol for your site
+url: "http://localhost:4000"
+github_username:  usgs
+
+collections:
+
+  catalogs:
+    output: true
+    name: 'Catalog'
+
+  contributors:
+    output: true
+    name: 'Contributor'

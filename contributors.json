@@ -1,0 +1,17 @@
+---
+layout: minify
+---
+[
+{% for contributor in site.contributors %}
+{
+"citation": {{ contributor.citation | jsonify }},
+"codes": {{ contributor.codes | jsonify }},
+"contact": {{ contributor.contact | jsonify }},
+"id": {{ contributor.id | jsonify }},
+"logo": {{ contributor.logo | prepend: '/logos/' | prepend: site.baseurl | prepend: site.url | jsonify }},
+"name": {{ contributor.name | jsonify }},
+"url": {{contributor.url | prepend: site.baseurl | prepend: site.url | jsonify }}
+}
+{%   if forloop.last != true %},{% endif %}
+{% endfor %}
+]

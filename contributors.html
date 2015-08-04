@@ -1,0 +1,19 @@
+---
+title: Contributors
+layout: default
+---
+
+<p>
+Contributors are a source of information.
+</p>
+
+<dl>
+{% for contributor in site.contributors | sort: 'id' %}
+  <dt id="{{ contributor.id }}">{{ contributor.id }}</dt>
+  <dd>
+    <a href="contributors/{{ contributor.id }}.html">
+      {{ contributor.id }} - {{ contributor.name }}
+    </a>
+  </dd>
+{% endfor %}
+</dl>
