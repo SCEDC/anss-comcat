@@ -33,7 +33,7 @@ doi:10.7909/C3WD3xH1
       <dd>[-1.0, 7.5]</dd>
     </dl>
   </dd>
-<dl>
+</dl>
 
 
 ## Contributors
