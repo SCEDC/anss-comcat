@@ -4,8 +4,6 @@ layout: minify
 [
 {% for catalog in site.catalogs %}
 {
-"citation": {{ catalog.citation | jsonify }},
-"contact": {{ catalog.contact | jsonify }},
 "id": {{ catalog.id | jsonify }},
 "logo": {{ catalog.logo | prepend: '/logos/' | prepend: site.baseurl | prepend: site.url | jsonify }},
 "name": {{ catalog.name | jsonify }},

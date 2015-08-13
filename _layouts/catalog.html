@@ -2,14 +2,12 @@
 layout: default
 ---
 
+<header>
 {% if page.logo %}
   <img class="logo" src="{{ site.baseurl }}/logos/{{ page.logo }}"/>
 {% endif %}
+  <h2>{{ page.name }}</h2>
+</header>
 
-<dl>
-  <dt>Name</dt><dd>{{page.name | escape}}</dd>
-  <dt>Citation</dt><dd>{{page.citation | escape}}</dd>
-  <dt>Contact</dt><dd>{{page.contact | escape}}</dd>
-</dl>
 
 {{content}}
