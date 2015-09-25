@@ -38,3 +38,11 @@ logo: ci.svg
 - [http://scedc.caltech.edu/about/BSSA_2010_Hutton_SCSN_cat.pdf](http://scedc.caltech.edu/about/BSSA_2010_Hutton_SCSN_cat.pdf)
 - [http://scedc.caltech.edu/about/historic-data.html](http://scedc.caltech.edu/about/historic-data.html)
 - [http://scedc.caltech.edu/eq-catalogs/change-history.html](http://scedc.caltech.edu/eq-catalogs/change-history.html)
+
+## Other Notifications
+
+- As of September 22, 21:30 UTC, events in the catalog have depths referenced
+to the WGS84 ellipsoid.  Prior to this date depths are referenced to the model
+datum.  We are in the process of migrating past data to the new datum and
+will post an announcement when that effort is finished.
+
