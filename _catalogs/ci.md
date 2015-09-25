@@ -41,7 +41,7 @@ logo: ci.svg
 
 ## Other Notifications
 
-- As of September 22, 21:30 UTC, events in the catalog have depths referenced
+- As of 21:30 UTC September 22, 2015, events in the catalog have depths referenced
 to the WGS84 ellipsoid.  Prior to this date depths are referenced to the model
 datum.  We are in the process of migrating past data to the new datum and
 will post an announcement when that effort is finished.
